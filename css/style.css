@@ -561,7 +561,11 @@ div#photo_big .big{
 
 div#photo_big .big img{
     display: block;
-    position: relative;
-    margin:0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
 
 }
